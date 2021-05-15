@@ -11,12 +11,20 @@ height: 48px;
 position: fixed;
 background-color: rgb(116, 115, 115);}
 
-header .menu a { text-decoration: none; /* remove as linhas abaixo das palavras */
+header .menu a { text-decoration: none; /* remove o sublinhado */
     color:black;  
-   /* flex-direction: row; */  
+    flex-direction: row;  
     padding: 14px 16px;
     float: right;
-    font-weight: bolder;}
+    font-weight: bolder;
+    overflow: hidden;}
+
+header .menu a:hoover{
+    transition: 0.5s;
+    opacity: 0.7;   
+    color:white;
+    text-decoration:underline;;
+}
 
 header .container{  display: flex; /* alinha os elementos em linha */
     flex-direction: row;
