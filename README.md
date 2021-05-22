@@ -5,8 +5,9 @@ Site feito em html e css usandos algumas features do java script
 </p>
 <p align = "center">
 <img width=300 height=200 src=Imgs/html-css.png >
+        
+        
 <p>
-<h2 align = "center"> Contact me :iphone: </h2>
 <p align="center">
         <a href="https://www.facebook.com/guilherme.cavenaghi" target = "blank">
         <img  src="https://img.shields.io/badge/facebook-%230027B5?&style=for-the-badge&logo=facebook&logoColor=white&link=mailto:https://www.facebook.com/guilherme.cavenaghi">
